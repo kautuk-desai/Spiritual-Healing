@@ -1,0 +1,99 @@
+body{
+	background-image: url(../images/tricolor-wallpaper.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	/*width: 100%;
+	height: 100%;*/
+	font-size: large;
+}
+
+section{	
+    margin-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}	
+
+.navbar-brand{
+	font-size: xx-large;
+	font-family: cursive;
+}
+
+#description > .container-fluid > .animated{
+	display: block;
+	font-size: large;
+}
+
+.trainersImage img{
+	margin: 0 auto;
+    border: 7px solid transparent;
+    width: 315px;
+    height: 342px;
+}
+
+.img-responsive + .tooltip > .tooltip-inner {
+      background-color: transparent;
+      color: black; 
+      padding: 10px;
+      font-size: large;
+  }
+
+#description{
+margin-top: 51px;
+}
+
+#myNavbar>ul>li>a{
+	font-size: large;
+}
+
+#myNavbar>ul>li>a:hover{
+	color: #1B1919;
+	background-color: #E0C594;
+}
+
+/* hamburger animation effect */
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+/******************/
+
+/* For Contact Section*/
+.bigicon {
+    font-size: 35px;
+    color: #5BC0DE;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+}
+
+
+/* Contact Section End*/
+
